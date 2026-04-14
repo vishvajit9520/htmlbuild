@@ -3,13 +3,12 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "Installing..."
+      - echo Installing...
 
   build:
     commands:
-      - echo "Build phase"
+      - echo Build started
 
 artifacts:
   files:
     - '**/*'
-  name: BuildArtifact
